@@ -1,0 +1,21 @@
+boat,type,capacity,aboard,launch_time,launch_minutes_after_impact
+5,Wooden,65,36,00:43,63
+7,Wooden,65,28,00:45,65
+6,Wooden,65,24,00:55,75
+3,Wooden,65,32,01:00,80
+1,Emergency cutter,40,12,01:10,90
+8,Wooden,65,27,01:10,90
+9,Wooden,65,40,01:20,100
+16,Wooden,65,53,01:25,105
+14,Wooden,65,40,01:30,110
+12,Wooden,65,29,01:35,115
+11,Wooden,65,70,01:37,117
+13,Wooden,65,55,01:43,123
+2,Emergency cutter,40,18,01:45,125
+15,Wooden,65,70,01:45,125
+4,Wooden,65,34,01:50,130
+10,Wooden,65,57,01:50,130
+C,Collapsible,47,43,02:00,140
+D,Collapsible,47,20,02:05,145
+A,Collapsible,47,13,,
+B,Collapsible,47,28,,

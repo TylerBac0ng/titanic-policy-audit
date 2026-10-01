@@ -1,0 +1,76 @@
+Raw shape: (891, 12)
+Duplicate rows: 0
+Duplicate PassengerId: 0
+
+Missing values per column (raw):
+PassengerId      0
+Survived         0
+Pclass           0
+Name             0
+Sex              0
+Age            177
+SibSp            0
+Parch            0
+Ticket           0
+Fare             0
+Cabin          687
+Embarked         2
+
+Title value counts (after grouping rare titles):
+Title
+Mr        517
+Miss      185
+Mrs       126
+Master     40
+Rare       23
+
+Deck value counts (Unknown = missing Cabin):
+Deck
+Unknown    687
+C           59
+B           47
+D           33
+E           32
+A           15
+F           13
+G            4
+T            1
+
+Embarked: filled 2 missing value(s) with mode 'S'
+
+Age: imputed 177 missing value(s) using the median Age within each Pclass+Sex group; flagged in Age_was_missing
+Median age by Pclass + Sex (used for imputation):
+Pclass  Sex   
+1       female    35.0
+        male      40.0
+2       female    28.0
+        male      30.0
+3       female    21.5
+        male      25.0
+
+Fare: 15 rows have Fare == 0 (likely crew/employee/comp tickets, e.g. ticket 'LINE'). Left as-is; noted for analysis.
+count    891.000000
+mean      32.204208
+std       49.693429
+min        0.000000
+25%        7.910400
+50%       14.454200
+75%       31.000000
+max      512.329200
+
+Final shape: (891, 13)
+
+Final missing values per column:
+PassengerId        0
+Survived           0
+Pclass             0
+Sex                0
+Age                0
+SibSp              0
+Parch              0
+Ticket             0
+Fare               0
+Embarked           0
+Title              0
+Deck               0
+Age_was_missing    0

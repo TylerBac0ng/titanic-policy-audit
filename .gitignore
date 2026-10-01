@@ -1,3 +1,6 @@
+# Presentation materials — deliberately kept out of the repo
+presentation/
+
 __pycache__/
 *.py[cod]
 .ipynb_checkpoints/
